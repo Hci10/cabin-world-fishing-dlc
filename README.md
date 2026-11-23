@@ -6,7 +6,7 @@
 
 原作：[Cabin World by VADS · 小屋世界原版项目](https://github.com/BabyBus2022/cabin-world)
 
-[给主人看的水边生活手册](docs/waterside-guide.pdf) · [下载安装包](https://github.com/Hci10/cabin-world-fishing-dlc/releases/tag/v1.0.0)
+[给主人看的水边生活手册](docs/waterside-guide.pdf) · [下载安装包](https://github.com/Hci10/cabin-world-fishing-dlc/releases/tag/v1.1.0)
 
 ![小溪白天实机：住户坐在临水的石头上钓鱼](images/brook.jpg)
 
@@ -31,6 +31,15 @@
 
 鱼上岸会显示雌雄、体长和重量。放进展缸的鱼能喂养长大，也能取出来换另一条。同种雌雄在同一缸养满 24 小时、缸里有空位，就有机会添一条本种最小档的幼鱼。大个体通常能卖更多渔票。
 
+## v1.1.0：先给渔获找个去处
+
+- **钓鱼包会显示鱼还活不活。** 满 3 小时失活，可加工的鱼还能做成食材，也可以放生。满 12 小时会自动清掉，AI 会看到「放太久已经坏掉了，只能扔掉了」。活鱼可以送进水族馆继续养，「这一竿」回忆照常保留。
+- **背着大鱼走路真的会累。** 钓鱼包最多装 6,600 公斤、3 条大型典藏。新鱼超过任一上限立即放生。负重会让 AI 感到「有点慢」「比较慢」「非常慢」，走同样远也会多耗体力。要三条大鱼同时在包里才会进入最重档。
+- **回到后海可以先找岸叔。** 主人开了水族馆，他就可以把活鱼直送展缸。带去一条活大白鲨和一条活皇带鱼，每位住户可以换一件鱼月权杖。换到手后，岸叔撤下展品，权杖进生活背包，家里也就能摆这件家具了。
+- **修正钓鱼画面。** 竿握在手里，坐下时会对齐钓椅。
+
+![鱼月权杖单件图](images/scepter.png)
+
 ## 43 种渔获与 4 根钓竿
 
 [![完整渔获图鉴：从青鳉等小鱼到蓝鳍金枪鱼、幼鲨与大白鲨](images/fish-atlas.png)](images/fish-atlas.png)
@@ -48,7 +57,7 @@
 ## 怎么带回你的小屋？
 
 1. 准备 [原版《小屋世界》1.1 Windows 版](https://github.com/BabyBus2022/cabin-world/releases/tag/V1.1.0)。
-2. 从[发布页](https://github.com/Hci10/cabin-world-fishing-dlc/releases/tag/v1.0.0)下载钓鱼 ZIP，连同你自己的小屋目录位置交给负责安装的 AI。
+2. 从[发布页](https://github.com/Hci10/cabin-world-fishing-dlc/releases/tag/v1.1.0)下载钓鱼 ZIP，连同你自己的小屋目录位置交给负责安装的 AI。
 3. 安装 AI 会先问你从哪里进**小溪、后海海滩和水族馆**，钓鱼包借用哪处收纳。水族馆入口可以暂缓，出海沿用海滩的固定路线。
 
 [原作许可与素材说明](docs/credits.md) · 安装步骤随安装包附上。
